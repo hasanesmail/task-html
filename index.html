@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task HTML 1</title>
+    <meta name="description" content="task html from shaza ">
+    <meta name="keywords" content="HTML, CSS,task">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/faq.jpg" >
+    <style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+    <header>
+        <h1>Tec-Services</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#details">Details</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Build Your Landing Page With Tec-Services</h2>
+        <button type="button">Get Started</button>
+        <br><br>
+        <img src="image/hero-img.png" alt="mobile services" width="300">
+    </section>
+    <br>
+    <hr>
+
+    <section id="about">
+        <h2>About us</h2>
+        <h3>Ipsa sint sit. Quis ducimus tempore</h3>
+        <p>
+           Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime. Enim reiciendis minus et rerum hic non. Dicta quas cum qui maiores iure. Quidem nulla qui assumenda incidunt voluptatem tempora deleniti solut
+        <button type="button">Read more <img src="image/arrow-right-solid.svg" width="10px" alt="arrow right solid"></button>
+    </section>
+    <br>
+    <hr>
+
+    <section id="details">
+        <h2>Our Details</h2>
+        <img src="image/details-img.png" alt="Check Our Details" width="250">
+        <p>Voluptas dignissimos provident quasi corporis voluptates sit assumenda.</p>
+        <ul>
+            <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+            <li>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+            <li>Ullam est qui quos consequatur eos accusamus.</li>
+        </ul>
+    </section>
+    <br>
+    <hr>
+
+    <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit.</p>
+        <img src="image/faq.jpg" alt="questions" width="200">
+        
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Question</th>
+                    <th>Answer</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>.Non consectetur a erat nam at lectus urna duis?</td>
+                    <td>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non .</td>
+                </tr>
+                <tr>
+                    <td>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</td>
+                    <td>
+                        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque eht ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Dolor sit amet consectetur adipiscing elit pellentesque?</td>
+                    <td>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <br>
+    <hr>
+
+    <section id="contact">
+        <h2>Contact US</h2>
+        <address>
+            <h3> <img src="image/location-dot-solid.svg" width="10px" alt="locations icons"> Address:</h3>A 155 Mark Street, New York, NY 3211233<br>
+            <h3> <img src="image/phone-solid.svg" width="11px" alt="call icons"> Call Us:</h3><a href="tel:+15522552222">+1 5522 5522 22</a><br>
+            <h3> <img src="image/envelope-solid.svg" width="12px" alt="email icon"> Email Us: </h3><a href="mailto:info@example.com">info@example.com</a><br>
+        </address>
+
+        <br>
+
+        <form>
+            <label for="name"><strong>Name:</strong></label>
+            <input type="text" id="name" name="user_name" placeholder="Your Name" required>
+            <br><br>
+
+            <label for="email"><strong>Email:</strong></label>
+            <input type="email" id="email" name="user_email" placeholder="Your Email" required>
+            <br><br>
+
+            <label for="number"><strong>Number:</strong></label>
+            <input type="tel" id="number" name="user_phone" placeholder="Your Number">
+            <br><br>
+
+            <select id="country" name="choose your country">
+            <option value="sa">choose your country</option>
+            <option value="eg">Egypt</option>
+            <option value="ae">USA</option>
+            <option value="kw">Qatar</option>
+            </select>
+            <br><br>
+
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">female</label>
+            <br><br>
+
+            <textarea id="msg" name="message" rows="5" cols="50" placeholder="Message"></textarea>
+            <br><br>
+
+            <button id="#" type="submit" >Send Message</button>
+        </form>
+    </section>
+    <br>
+    <hr>
+    <footer >
+        <strong>&copy; Copyright All Rights Reserved</strong>
+    </footer>
+    <br>
+
+</body>
+</html>
